@@ -1,0 +1,64 @@
+@charset "ISO-8859-1";
+
+/* Main css for the body of the website */
+body 
+{
+  background-color: #000000;
+}
+
+/* ------------------------------------
+*	CSS for the text grid
+--------------------------------------- 
+*/
+.box_color
+{
+	background-color: #FFFFFF;
+}
+.box_color_img_black
+{
+	background-color: #000000;
+}
+/* Box color black with white text */
+.box_color_black
+{
+	background-color: #000000;
+	text-align: right !important;
+	color: white !important;
+}
+/* Background color for navbar */
+.navbar_bg_color
+{
+	background-color: #277FB7;
+	border-color: black;
+}
+.navbar_text
+{
+	color: white !important;
+}
+
+/* Center an image */
+.center 
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  vertical-align: middle;
+  background-position: right top;
+}
+/* Left Justify an image */
+.img_left 
+{
+  vertical-align: left !important;
+}
+/* Right Justify an image and vertical align */
+.img_right_center 
+{
+	overflow: auto;
+  vertical-align: middle !important;
+}
+/* Jumbotron Height */
+.jumbotron_height 
+{
+	background-color: yellow;
+	min-height: 300px;
+}
