@@ -1,5 +1,3 @@
-<!-- Business Layer class that utilizes ordersDAO in the Data Access Layer -->
-
 <?php
 include_once '../classes/orderDAO.php';
 
