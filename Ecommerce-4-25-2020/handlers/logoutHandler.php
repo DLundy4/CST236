@@ -1,5 +1,5 @@
 <?php
-include_once '../includes/session_Include.php';
+include_once '../includes/header.php';
 
 if ($_SESSION["principle"]) {
     $_SESSION["principle"] = false;
