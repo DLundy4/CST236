@@ -1,5 +1,5 @@
 <?php
-include_once '../includes/session_Include.php';
+include_once '../includes/header.php';
 include_once '../classes/coupons.php';
 
 // get all the posted variables
