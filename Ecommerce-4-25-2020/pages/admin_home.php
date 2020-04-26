@@ -15,7 +15,7 @@ $results = $users->Get_All_Users();
     
     <table>
         <tr>
-        <th>ID_user</th>
+        <th>id_user</th>
         <th>FirstName</th>
         <th>LastName</th>
         <th>Email</th>
@@ -32,9 +32,9 @@ $results = $users->Get_All_Users();
             echo "<td>" . $results[$x]['Email'] . "</td>";
             echo "<td>" . $results[$x]['Username'] . "</td>";
             echo "<td>" . $results[$x]['Password'] . "</td>";
-            echo "<td><a href='../pages/editUser.php?id_user=" . $results[$x]['ID_user'] . "&firstname="  . $results[$x]['FirstName'] . "&lastname="  . $results[$x]['LastName'] . "&email="  . $results[$x]['Email'] . "&username="  . $results[$x]['Username'] . "&password=" . $results[$x]['Password'] . "'" . ">Edit</a></td>";
-            $id = $results[$x]['ID_user'];
-            echo "<td><a href='../handlers/deleteUserHandler.php?id_user=" . $results[$x]['ID_user'] . "'>Delete</a></td>";
+            echo "<td><a href='../pages/editUser.php?id_user=" . $results[$x]['id_user'] . "&firstname="  . $results[$x]['FirstName'] . "&lastname="  . $results[$x]['LastName'] . "&email="  . $results[$x]['Email'] . "&username="  . $results[$x]['Username'] . "&password=" . $results[$x]['Password'] . "'" . ">Edit</a></td>";
+            $id = $results[$x]['id_user'];
+            echo "<td><a href='../handlers/deleteUserHandler.php?id_user=" . $results[$x]['id_user'] . "'>Delete</a></td>";
             echo "</tr>";
         } ?>
     </table>
