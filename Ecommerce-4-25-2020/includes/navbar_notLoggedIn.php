@@ -4,7 +4,7 @@
       <div class="container-fluid">
         
         <ul class="nav navbar-nav">
-          <li class="active"><a href="#">Home</a></li>
+          <li class="active"><a href="../pages/index.php">Home</a></li>
           <li><a class="navbar_text" href="../pages/view_products.php">Products</a></li>
           <?php if (!$_SESSION["principle"]) { ?>
           <li><a class="navbar_text" href="../pages/registerUser.php">Register</a></li>
