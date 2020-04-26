@@ -1,6 +1,6 @@
 <!-- Business Layer class that utilizes couponDAO in the Data Access Layer -->
 <?php
-include_once 'classes/couponDAO.php';
+include_once 'couponDAO.php';
 /*
  *  This is in the business layer
  */
@@ -14,7 +14,8 @@ class coupons extends couponDAO
     }
     
     // Function for inserting a coupon.
-    public function create_Coupon($deal, $code) {
+    public function create_Coupon($deal, $code)
+    {
         return $this->createCoupon($deal, $code);
     }
     

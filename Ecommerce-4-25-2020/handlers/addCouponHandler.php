@@ -6,7 +6,7 @@ include_once '../classes/coupons.php';
 $deal = $_POST["deal"];
 $code = $_POST["code"];
 
-// instantiate productDAO
+// instantiate products
 $bs = new coupons();
 
 // use productDAO function to create a product

@@ -9,7 +9,9 @@ $results = $users->Get_All_Users();
 ?>
 
 <div align="center">
-    <a href="../pages/addCoupon.php">Add Coupon</a><br/><br/>
+    <a href="../pages/addCoupon.php">Add Coupon</a>
+    <br/>
+    <br/>
     
     <table>
         <tr>
