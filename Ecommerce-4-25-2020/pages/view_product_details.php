@@ -46,8 +46,10 @@ include_once '../includes/header.php'; ?>
         <form action="../handlers/addToCartHandler.php" method = "post">
         <br><br><br>
         <p><?php echo "$" . $data['price']; ?></p>
-        	Qty: <input type="text" name="qty" size="3"> <br><br>
-        	<input type="submit" value="Add To Cart"><br>
+        	<?php if ($_SESSION["principle"]) { ?>
+        		Qty: <input type="text" name="qty" size="3"> <br><br>
+        		<input type="submit" value="Add To Cart"><br>
+        	<?php } ?>
         	<input type="hidden" name="product_id" value="<?php echo $data['id_products']; ?>">
         	<br><br><br>
         	<p><?php echo $data['long_description']; ?></p>
